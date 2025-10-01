@@ -2,7 +2,11 @@
 
 
 
+<<<<<<< HEAD
 # ⚡ Pro Tweak Utility ⚡
+=======
+\ ⚡ Pro Tweak Utility ⚡
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -65,7 +69,11 @@ A sleek and powerful Windows optimization tool that allows users to apply and re
 
 
 
+<<<<<<< HEAD
 ## 📖 About The Project
+=======
+\ 📖 About The Project
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -81,7 +89,11 @@ The application leverages a modern frontend built with standard web technologies
 
 
 
+<<<<<<< HEAD
 ## ✨ Core Features
+=======
+\ ✨ Core Features
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -103,7 +115,11 @@ The application leverages a modern frontend built with standard web technologies
 
 
 
+<<<<<<< HEAD
 ## 🛠️ Technologies Used
+=======
+\ 🛠️ Technologies Used
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -119,7 +135,11 @@ The application leverages a modern frontend built with standard web technologies
 
 
 
+<<<<<<< HEAD
 ## 🚀 Getting Started
+=======
+\ 🚀 Getting Started
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -137,7 +157,11 @@ Follow these simple steps to get the tweak utility running on your local machine
 
 
 
+<<<<<<< HEAD
 ### Installation \& Usage
+=======
+\ Installation \& Usage
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -183,7 +207,11 @@ Follow these simple steps to get the tweak utility running on your local machine
 
 
 
+<<<<<<< HEAD
 ## 📂 Project Structure
+=======
+\ 📂 Project Structure
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -209,7 +237,11 @@ The project is organized with a clear separation between the backend logic and t
 
 
 
+<<<<<<< HEAD
 ## 🗺️ Roadmap
+=======
+\ 🗺️ Roadmap
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
@@ -233,7 +265,11 @@ This project has a solid foundation that can be extended in many exciting ways:
 
 
 
+<<<<<<< HEAD
 ## 📄 License
+=======
+\ 📄 License
+>>>>>>> 294f18b312a9637cbd36710017e8ebbeaa288a2a
 
 
 
