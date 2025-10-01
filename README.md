@@ -65,7 +65,7 @@ A sleek and powerful Windows optimization tool that allows users to apply and re
 
 
 
-\## 📖 About The Project
+\ 📖 About The Project
 
 
 
@@ -81,7 +81,7 @@ The application leverages a modern frontend built with standard web technologies
 
 
 
-\## ✨ Core Features
+\ ✨ Core Features
 
 
 
@@ -103,7 +103,7 @@ The application leverages a modern frontend built with standard web technologies
 
 
 
-\## 🛠️ Technologies Used
+\ 🛠️ Technologies Used
 
 
 
@@ -119,7 +119,7 @@ The application leverages a modern frontend built with standard web technologies
 
 
 
-\## 🚀 Getting Started
+\ 🚀 Getting Started
 
 
 
@@ -137,7 +137,7 @@ Follow these simple steps to get the tweak utility running on your local machine
 
 
 
-\### Installation \& Usage
+\ Installation \& Usage
 
 
 
@@ -183,7 +183,7 @@ Follow these simple steps to get the tweak utility running on your local machine
 
 
 
-\## 📂 Project Structure
+\ 📂 Project Structure
 
 
 
@@ -209,7 +209,7 @@ The project is organized with a clear separation between the backend logic and t
 
 
 
-\## 🗺️ Roadmap
+\ 🗺️ Roadmap
 
 
 
@@ -233,7 +233,7 @@ This project has a solid foundation that can be extended in many exciting ways:
 
 
 
-\## 📄 License
+\ 📄 License
 
 
 
