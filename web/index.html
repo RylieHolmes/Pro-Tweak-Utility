@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pro Tweak Utility</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <!-- Resize Handles -->
+    <div id="resize-handle-N"></div>
+    <div id="resize-handle-S"></div>
+    <div id="resize-handle-E"></div>
+    <div id="resize-handle-W"></div>
+    <div id="resize-handle-NW"></div>
+    <div id="resize-handle-NE"></div>
+    <div id="resize-handle-SW"></div>
+    <div id="resize-handle-SE"></div>
+
+    <div class="app-container">
+        <div class="title-bar pywebview-drag-region">
+            <div class="title-bar-text"><i class="fas fa-bolt"></i> Pro Tweak Utility</div>
+            <div class="title-bar-controls">
+                <div class="control-btn" id="close-btn"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="sidebar">
+                <div class="sidebar-header"><h2>Tweaks</h2></div>
+                <ul class="nav-list">
+                    <!-- Categories will be dynamically inserted here by script.js -->
+                </ul>
+                <div class="sidebar-header"><h2>Tools</h2></div>
+                <ul class="nav-list">
+                    <li class="nav-item" data-category="analyzer"><i class="fas fa-search"></i> System Analyzer</li>
+                    <li class="nav-item" data-category="gamemode"><i class="fas fa-gamepad"></i> Game Mode</li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="page" id="tweaks-page">
+                    <div class="main-header">
+                        <h1>Dashboard</h1>
+                        <p>Select a tweak to apply or revert. Applied tweaks are marked with a check.</p>
+                    </div>
+                    <div class="tweak-grid"></div>
+                </div>
+                <div class="page hidden" id="analyzer-page">
+                    <div class="main-header"><h1>System Analyzer</h1><p>Scanning your PC for recommended optimizations.</p></div>
+                    <div id="recommendations-container" class="tweak-grid"></div>
+                </div>
+                <div class="page hidden" id="gamemode-page">
+                     <div class="main-header"><h1>Game Mode</h1><p>Automatically apply tweaks when a game launches. (Coming Soon)</p></div>
+                    <div class="gamemode-container">
+                        <p>Enter the game's executable name (e.g., "valorant.exe").</p>
+                        <input type="text" id="game-process-input" placeholder="Game Executable Name" disabled>
+                        <button id="toggle-gamemode-btn" class="apply-btn" disabled>Enable Game Mode</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="feedback-modal" class="modal-overlay">
+        <div class="modal-content">
+            <i id="modal-icon" class="fas fa-check-circle modal-icon-success"></i>
+            <h2 id="modal-title">Success!</h2>
+            <p id="modal-message">The action has been applied successfully.</p>
+            <button id="close-modal-btn" class="modal-close-btn">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
