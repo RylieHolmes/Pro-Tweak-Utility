@@ -33,20 +33,19 @@ A sleek and powerful Windows optimization tool that allows users to apply and re
 
 ## 📖 About The Project
 
-Pro Tweak Utility is designed to provide a simple yet robust solution for Windows users looking to optimize their system for performance, gaming, privacy, and more. Unlike scripts that apply changes blindly, this tool stores the original state of every tweak, allowing for safe, one-click rollbacks.
+I built this project to be a straightforward tweaking utility that doesn't feel like a risky script. The main goal was to ensure every single tweak could be undone. Before applying a change, the tool automatically saves the original setting. If you don't like a tweak, you can simply revert it with one click.
 
-The application leverages a modern frontend built with standard web technologies, wrapped in a lightweight Python backend, making it both visually appealing and easy to extend. All tweaks are defined in an external JSON file, so new optimizations can be added without ever touching the core application code.
+The cool part is that all the tweaks are defined in a simple `tweaks.json` file. This means you can add or modify optimizations yourself without ever needing to touch the application's code.
 
 ---
 
 ## ✨ Core Features
 
-*   **Extensive Tweak Library:** Comes pre-loaded with dozens of tweaks across categories like Performance, Network, Privacy, Gaming, and UI.
-*   **Safe Apply & Revert:** Automatically backs up the original settings before applying any tweak, ensuring you can revert changes at any time.
-*   **System Analyzer:** Includes a tool that scans for common areas of improvement and suggests recommended tweaks.
-*   **Modern User Interface:** A clean, responsive GUI built with HTML, CSS, and JavaScript provides a superior user experience.
-*   **JSON-Powered:** All tweaks are loaded from a `tweaks.json` file, making it incredibly easy for the community to add or modify optimizations.
-*   **Lightweight & Portable:** Built with `pywebview`, the tool is a lightweight wrapper around a webview, requiring minimal dependencies.
+*   **Apply and Revert Safely:** Every tweak is reversible. The original system setting is backed up before any changes are made.
+*   **System Analyzer:** Scans your PC and suggests some common, safe optimizations to improve performance.
+*   **Clean, Modern UI:** The interface is built with standard web tech, so it's easy to use and looks good.
+*   **Easy to Modify:** All tweaks live in the `tweaks.json` file. Want to add a new registry tweak? Just add a new entry to the JSON.
+*   **Lightweight:** It uses `pywebview` to wrap the web UI, keeping the application small and simple.
 
 ---
 
@@ -60,61 +59,56 @@ The application leverages a modern frontend built with standard web technologies
 
 ## 🚀 Getting Started
 
-Follow these simple steps to get the tweak utility running on your local machine.
+Here's how to get the tool running on your machine.
 
 ### Prerequisites
 
-*   Python 3.8 or newer. You can download it from [python.org](https://www.python.org/).
-*   Windows Operating System.
+*   You need Python 3.8 or newer.
+*   This is a Windows-only application.
 
 ### Installation & Usage
 
-1.  **Clone the repository:**
+1.  **Clone the repo:**
     ```sh
     git clone https://github.com/RylieHolmes/Pro-Tweak-Utility.git
     ```
-2.  **Navigate to the project directory:**
+2.  **Go to the project folder:**
     ```sh
     cd Pro-Tweak-Utility
     ```
-3.  **Install the required Python packages:**
+3.  **Install requirements:**
     ```sh
     pip install pywebview
     ```
-4.  **Run the application:**
-    *You must run the script as an Administrator for the tweaks to work.*
+4.  **Run the app:**
+    You have to run it as an Administrator for it to work.
     ```sh
     python app.py
     ```
-    The application window will appear, and you can start applying tweaks.
 
 ---
 
 ## 📂 Project Structure
 
-The project is organized with a clear separation between the backend logic and the frontend interface:
+The project is split into two main parts: the Python backend and the web-based frontend.
 
-*   `app.py`: The main Python backend. It handles all the core logic, such as applying/reverting tweaks, reading JSON files, and managing the application window. It also serves as the API for the frontend.
-*   `tweaks.json`: A JSON file containing the definitions for all available tweaks. Each entry includes a title, description, and the specific actions (e.g., registry changes, commands) to perform.
-*   `web/`: This directory contains all the frontend files.
-    *   `index.html`: The main structure of the user interface.
-    *   `style.css`: All the styling rules to make the application look clean and modern.
-    *   `script.js`: The frontend JavaScript that handles user interactions, calls the Python API, and dynamically updates the UI.
+*   `app.py`: The core Python file. It handles all the logic for applying and reverting tweaks, reading the JSON file, and managing the window itself.
+*   `tweaks.json`: This file contains all the tweak definitions. You can edit this to add, remove, or change tweaks.
+*   `web/`: This folder holds all the frontend files (`index.html`, `style.css`, and `script.js`).
 
 ---
 
 ## 🗺️ Roadmap
 
-This project has a solid foundation that can be extended in many exciting ways:
+Here are some ideas for future updates:
 
-*   [x] System Analyzer for recommended tweaks.
-*   [ ] **Game Mode:** Implement the "Game Mode" feature, which automatically applies a set of gaming-related tweaks when a specified game executable is launched.
-*   [ ] **Tweak Profiles:** Allow users to save and load custom profiles of their favorite tweaks.
-*   [ ] **More Tweaks:** Continuously expand the `tweaks.json` library with new and useful optimizations.
-*   [ ] **Detailed Logging:** Add a logging system to provide more feedback on the actions being performed.
+*   [ ] Implement the "Game Mode" feature.
+*   [ ] Allow users to create and save their own tweak profiles.
+*   [ ] Add more tweaks to the default `tweaks.json`.
+*   [ ] Create a logging system for better troubleshooting.
 
 ---
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is distributed under the MIT License. See `LICENSE` for more information.
